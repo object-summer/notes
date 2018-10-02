@@ -1,0 +1,3 @@
+1. rgba 的 设置的 透明度 不会被子级 元素继承;    opacity 设置的透明度会被子级元素继承 .  
+　　因此 ,有时候 使用 rgba 会比 opacity 效果更好;
+2. rgba 可以设置background-color ,  color , border-color , text-shadow , box-shadow,
