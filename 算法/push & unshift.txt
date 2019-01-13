@@ -1,0 +1,11 @@
+插入一个元素到数组的第一个位置？
+方法一：
+var arr = [1,2,3,4,5]
+arr.unshift(0)
+方法二：
+var arr = [1,2,2,3]
+for (var i =1;i<arr.length;i++){
+arr[i]=arr[i-1]
+}
+arr[0]=0
+// => [0,1,2,2,3]
